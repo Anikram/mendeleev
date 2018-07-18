@@ -2,16 +2,16 @@ require 'json'
 
 def translate_key(key)
   case key
-      when 'number'
-        'Порядковый номер'
-      when 'title'
-        'Название элемента'
-      when 'scientist'
-        'Первооткрыватель'
-      when 'density'
-        'Плотность'
-      else
-        'Ошибка чтения JSON файла'
+  when 'number'
+    'Порядковый номер'
+  when 'title'
+    'Название элемента'
+  when 'scientist'
+    'Первооткрыватель'
+  when 'density'
+    'Плотность'
+  else
+    'Ошибка чтения JSON файла'
   end
 end
 
