@@ -15,8 +15,7 @@ def translate_key(key)
   end
 end
 
-
-date = File.read('data/full_elements.json')
+date = File.read('data/elements.json')
 data_hash = JSON.parse(date)
 
 puts "У нас есть #{data_hash.keys.size} элементов:"
